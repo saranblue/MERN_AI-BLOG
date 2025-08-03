@@ -25,22 +25,29 @@ cd mern-ai-blog
 ### 📦 Backend Setup
 ### 2. Go to the backend directory
 cd server
+
 ## 3. Install dependencies
 npm install
+
 ## 4. Start the server
 node index.js
+
 ## 💡 Frontend Setup
 ## 5. Open another terminal and go to the client
 cd client
+
 ## 6. Install dependencies
 npm install
+
 ## 7. Start the frontend
 npm start
 Runs on http://localhost:3000
+
 ## 🤖 Ollama (AI Model)
 Make sure you have Ollama installed and running:
 ollama run mistral
 No API key required! This runs models locally like mistral, llama3, etc.
+
 ## 🎨 Dark Mode
 Toggle with a button on the top-right
 
@@ -48,25 +55,25 @@ State stored in localStorage
 
 Applies globally using Bootstrap utility classes
 ## 🛠 Technologies
-Frontend: React, Bootstrap, Axios, React Router
+-Frontend: React, Bootstrap, Axios, React Router
 
-Backend: Node.js, Express, MongoDB, JWT
+-Backend: Node.js, Express, MongoDB, JWT
 
-AI: Ollama (local LLMs like Mistral)
+-AI: Ollama (local LLMs like Mistral)
 
-Auth: JSON Web Token (JWT)
+-Auth: JSON Web Token (JWT)
 
 
 ## 💬 Want to Add?
 You can contribute features like:
 
-✍️ Save blog history per user
+-✍️ Save blog history per user
 
-📃 User profile page
+-📃 User profile page
 
-🌐 Language toggle
+-🌐 Language toggle
 
-📤 Export blog to .txt or .md
+-📤 Export blog to .txt or .md
 
 
 
