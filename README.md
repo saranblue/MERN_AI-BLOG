@@ -19,11 +19,11 @@ An elegant full-stack MERN (MongoDB, Express, React, Node.js) application where 
 
 ### 1. Clone this repo
 ```bash
-git clone https://github.com/YOUR-USERNAME/mern-ai-blog.git
+git clone https://github.com/saranblue/mern-ai-blog.git
 cd mern-ai-blog
 ```
 ### 📦 Backend Setup
-### 2. Go to the backend directory
+## 2. Go to the backend directory
 cd server
 
 ## 3. Install dependencies
