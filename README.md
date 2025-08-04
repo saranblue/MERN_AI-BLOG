@@ -90,7 +90,7 @@ mern-ai-blog/
 ```
 
 
-![dashboard-preview](client/src/components/output.png) 
+![dashboard-preview](src/components/output.png)
 
 
 
