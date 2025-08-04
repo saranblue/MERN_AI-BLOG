@@ -77,6 +77,10 @@ You can contribute features like:
 
 
 
+![dashboard-preview](output.png) 
+
+
+
 
 
 
