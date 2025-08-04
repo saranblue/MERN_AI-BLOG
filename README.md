@@ -84,8 +84,13 @@ mern-ai-blog/
 ├── client/
 │   ├── src/
 │   ├── components/
+|   ├── index.js
+|   ├── app.js
+
 ├── server/
-│   ├── routes/
+│   ├── models/user.js
+│   ├── routes/authroutes.js
+|   ├── routes/ollamaroutes.js
 │   └── index.js
 ```
 
