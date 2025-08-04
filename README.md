@@ -41,7 +41,9 @@ npm install
 
 ## 7. Start the frontend
 npm start
+```
 Runs on http://localhost:3000
+```
 
 ## 🤖 Ollama (AI Model)
 Make sure you have Ollama installed and running:
@@ -76,8 +78,19 @@ You can contribute features like:
 -📤 Export blog to .txt or .md
 
 
+## 📂 Folder Structure
+```
+mern-ai-blog/
+├── client/
+│   ├── src/
+│   ├── components/
+├── server/
+│   ├── routes/
+│   └── index.js
+```
 
-![dashboard-preview](output.png) 
+
+![dashboard-preview](client/src/components/output.png) 
 
 
 
