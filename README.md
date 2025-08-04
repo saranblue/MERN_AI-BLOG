@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# 🧠 MERN AI Blog Generator (with Auth & Dark Mode)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An elegant full-stack MERN (MongoDB, Express, React, Node.js) application where users can sign up, log in, and generate AI-written blogs using [Ollama](https://ollama.com/) (no API key needed). Includes protected routes, token-based authentication, and a dark/light theme toggle.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🔥 Features
 
-### `npm start`
+- ✅ User Signup & Login (with JWT-based Auth)
+- ✅ Protected Route: Blog Page accessible only after login
+- ✅ AI Blog Generation via Ollama (local models like `mistral`)
+- ✅ Dark/Light Mode Toggle (with localStorage persistence)
+- ✅ Responsive UI using Bootstrap
+- ✅ Logout & Session Management
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Getting Started
 
-### `npm test`
+### 1. Clone this repo
+```bash
+git clone https://github.com/saranblue/mern-ai-blog.git
+cd mern-ai-blog
+```
+### 📦 Backend Setup
+## 2. Go to the backend directory
+cd server
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 3. Install dependencies
+npm install
 
-### `npm run build`
+## 4. Start the server
+node index.js
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 💡 Frontend Setup
+## 5. Open another terminal and go to the client
+cd client
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 6. Install dependencies
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 7. Start the frontend
+npm start
+```
+Runs on http://localhost:3000
+```
 
-### `npm run eject`
+## 🤖 Ollama (AI Model)
+Make sure you have Ollama installed and running:
+ollama run mistral
+No API key required! This runs models locally like mistral, llama3, etc.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🎨 Dark Mode
+Toggle with a button on the top-right
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+State stored in localStorage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Applies globally using Bootstrap utility classes
+## 🛠 Technologies
+-Frontend: React, Bootstrap, Axios, React Router
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+-Backend: Node.js, Express, MongoDB, JWT
 
-## Learn More
+-AI: Ollama (local LLMs like Mistral)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+-Auth: JSON Web Token (JWT)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## 💬 Want to Add?
+You can contribute features like:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+-✍️ Save blog history per user
 
-### Analyzing the Bundle Size
+-📃 User profile page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+-🌐 Language toggle
 
-### Making a Progressive Web App
+-📤 Export blog to .txt or .md
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## 📂 Folder Structure
+```
+mern-ai-blog/
+├── client/
+│   ├── src/
+│   ├── components/
+├── server/
+│   ├── routes/
+│   └── index.js
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+![dashboard-preview](client/src/components/output.png) 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+
+
+
+
+
+
